@@ -1,7 +1,17 @@
+# Local editor settings
 .vscode/
+.idea/
+
+# Dependencies and local logs
 node_modules/
+*.log
+
+# Local environment configuration
 .env
 .env.*
 !.env.example
+
+# Operating system files
 .DS_Store
 Thumbs.db
+Desktop.ini
